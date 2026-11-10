@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Legend Gym — Cria a tua própria Lenda · Faro · Olhão · Lisboa</title>
+<meta name="description" content="Legend Gym — New Old School. Musculação e treino de força em Faro, Olhão e Lisboa. Adere online com inscrição a 0€.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800;900&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="t-dark">
+
+<div class="loader" aria-hidden="true">
+  <div class="loader__word"><span>L</span><span>E</span><span>G</span><span>E</span><span>N</span><span>D</span><span class="g">.</span></div>
+  <div class="loader__bar"><i></i></div>
+  <div class="loader__meta label">New Old School · Est. 2011</div>
+  <div class="loader__count">0</div>
+</div>
+
+<div class="cursor" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+
+<!-- shared icon -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="arr" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H8M17 7v9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="chk" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="mark" viewBox="0 0 20 24"><path d="M6 0h3v6h6V0h3v6h2v3h-2v15h-3V9H9v15H6V9H0V6h6z" fill="currentColor"/></symbol>
+  <symbol id="star" viewBox="0 0 24 24"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z" fill="currentColor"/></symbol>
+</svg>
+
+<nav class="nav" aria-label="Principal">
+  <a href="#top" class="logo" data-link><svg><use href="#mark"/></svg>LEGEND<small>GYM</small></a>
+  <div class="nav__links">
+    <a href="#clubes" data-link><span>Clubes</span><span>Clubes</span></a>
+    <a href="#mensalidades" data-link><span>Mensalidades</span><span>Mensalidades</span></a>
+    <a href="#recovery" data-link><span>Recovery Zone</span><span>Recovery Zone</span></a>
+    <a href="#app" data-link><span>App</span><span>App</span></a>
+    <a href="https://shop.belegend.pt" target="_blank" rel="noopener"><span>Legend Shop</span><span>Legend Shop</span></a>
+  </div>
+  <a href="#mensalidades" class="btn btn--gold" data-link>Adere já <span class="arr"><svg width="14" height="14"><use href="#arr"/></svg></span></a>
+</nav>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero" data-theme="dark">
+  <div class="hero__top label"><span>Faro · Olhão · Lisboa</span><span>New Old School — Est. 2011</span></div>
+
+  <h1 class="hero__back split" aria-label="Cria a tua própria lenda">Cria a <span class="hl">tua</span></h1>
+
+  <div class="hero__media">
+    <img src="assets/img/hero.jpg" alt="Atleta a treinar com halteres no Legend Gym">
+    <div class="hero__shade"></div>
+  </div>
+
+  <div class="hero__front split" aria-hidden="true"><span class="wd w1">Própria</span> <span class="wd w2">Lenda</span></div>
+
+  <div class="hero__chip">
+    <b>30€</b>
+    <span>/mês · treina sexta,<br>sábado e domingo</span>
+  </div>
+
+  <a href="#mensalidades" class="hero__badge" data-link aria-label="Adere online com inscrição a 0 euros">
+    <svg class="ring" viewBox="0 0 150 150"><defs><path id="circ" d="M75,75 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/></defs>
+      <text fill="#F1EFE9" font-family="Inter Tight, sans-serif" font-size="11.5" font-weight="700" letter-spacing="3.2"><textPath href="#circ">ADERE ONLINE ✦ INSCRIÇÃO A 0€ ✦ ADERE ONLINE ✦</textPath></text></svg>
+    <span class="core">Inscrição<br>0€</span>
+  </a>
+
+  <div class="hero__foot">
+    <p>O teu treino merece mais. Máquinas das melhores marcas, halteres até 100 kg e uma Recovery Zone para voltares mais forte.</p>
+    <div class="scrollcue label"><i></i>Scroll</div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__row"><div class="marquee__track" data-dir="-1">
+    <span>New Old School <svg><use href="#star"/></svg></span><span>Faro <svg><use href="#star"/></svg></span><span>Olhão <svg><use href="#star"/></svg></span><span>Lisboa <svg><use href="#star"/></svg></span><span>Inscrição a 0€ <svg><use href="#star"/></svg></span><span>Torna-te uma lenda <svg><use href="#star"/></svg></span>
+  </div></div>
+  <div class="marquee__row"><div class="marquee__track" data-dir="1">
+    <span>Musculação natural <svg><use href="#star"/></svg></span><span>Recovery Zone <svg><use href="#star"/></svg></span><span>Halteres até 100 kg <svg><use href="#star"/></svg></span><span>Protein Bar <svg><use href="#star"/></svg></span><span>Pose Room <svg><use href="#star"/></svg></span>
+  </div></div>
+</div>
+
+<!-- ================= MANIFESTO ================= -->
+<section class="manifesto" data-theme="light">
+  <div class="wrap">
+    <div class="manifesto__meta label"><span><span class="dot"></span>(01) Filosofia</span><span>Legend Gym</span></div>
+    <p class="manifesto__text" id="manifesto">
+      Ser uma <span class="gold">lenda</span> <span class="pill"><img src="assets/img/p1.jpg" alt=""></span> não é um ponto de chegada. É <span class="gold">New Old School</span> — força, <span class="pill"><img src="assets/img/p2.jpg" alt=""></span> disciplina e musculação natural, todos os dias. Escolhe o teu próprio <span class="pill"><img src="assets/img/p3.jpg" alt=""></span> caminho.
+    </p>
+    <div class="manifesto__foot">
+      <p class="sub">Desde 2011 que construímos ginásios para quem leva o treino a sério. Equipamento de topo, ambiente old school e tudo o que precisas antes, durante e depois do treino.</p>
+      <a href="#mensalidades" class="btn btn--ink" data-link>Ver mensalidades <span class="arr"><svg width="16" height="16"><use href="#arr"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FACILITIES ================= -->
+<section class="fac" data-theme="dark" id="espaco">
+  <div class="fac__pin">
+    <div class="fac__head">
+      <div>
+        <div class="label" style="margin-bottom:22px"><span class="dot"></span>(02) O espaço</div>
+        <h2 class="display sec-title split">Tudo o que uma<br>lenda precisa</h2>
+      </div>
+      <div class="fac__count"><em class="fac__cur">01</em> / 06</div>
+    </div>
+    <div class="fac__stage">
+      <div class="fac__track">
+        <article class="fcard"><div class="media"><img src="assets/img/f1.jpg" alt="Sala de musculação do Legend Gym" loading="lazy"></div><span class="fcard__num">01</span><span class="fcard__tag">Força</span>
+          <div class="fcard__body"><h3>Máquinas<br>de topo</h3><p>As melhores marcas de máquinas de musculação, pensadas para força e hipertrofia.</p></div></article>
+        <article class="fcard"><div class="media"><img src="assets/img/f2.jpg" alt="Fila de halteres" loading="lazy"></div><span class="fcard__num">02</span><span class="fcard__tag">Peso livre</span>
+          <div class="fcard__body"><h3>Halteres<br>até 100 kg</h3><p>Peso livre a sério, para quem não aceita limites artificiais.</p></div></article>
+        <article class="fcard"><div class="media"><img src="assets/img/f3.jpg" alt="Banho de gelo na Recovery Zone" loading="lazy"></div><span class="fcard__num">03</span><span class="fcard__tag">Recuperação</span>
+          <div class="fcard__body"><h3>Recovery<br>Zone</h3><p>Crioterapia, banho turco, sauna de infravermelhos e cadeira de massagem.</p></div></article>
+        <article class="fcard"><div class="media"><img src="assets/img/f4.jpg" alt="Atleta a treinar" loading="lazy"></div><span class="fcard__num">04</span><span class="fcard__tag">Evolução</span>
+          <div class="fcard__body"><h3>Pose<br>Room</h3><p>Um espaço dedicado para registar a tua evolução — foto a foto.</p></div></article>
+        <article class="fcard"><div class="media"><img src="assets/img/f5.jpg" alt="Protein Bar do Legend Gym" loading="lazy"></div><span class="fcard__num">05</span><span class="fcard__tag">Nutrição</span>
+          <div class="fcard__body"><h3>Protein<br>Bar</h3><p>Suplementos pré e pós-treino, prontos quando precisas.</p></div></article>
+        <article class="fcard"><div class="media"><img src="assets/img/f6.jpg" alt="Halteres e elásticos" loading="lazy"></div><span class="fcard__num">06</span><span class="fcard__tag">Loja</span>
+          <div class="fcard__body"><h3>Legend<br>Shop</h3><p>Loja física no clube e online em shop.belegend.pt.</p></div></article>
+      </div>
+    </div>
+    <div class="fac__bar"><i></i></div>
+  </div>
+</section>
+
+<!-- ================= RECOVERY ================= -->
+<section class="rz" id="recovery" data-theme="dark">
+  <div class="rz__sticky">
+    <div class="rz__label label"><span class="dot"></span>(03) Recovery Zone</div>
+    <div class="rz__media"><img src="assets/img/rz.jpg" alt="Crioterapia na Recovery Zone" loading="lazy"></div>
+    <h2 class="rz__title display"><span class="o">Recupera</span><br>como uma<br>lenda</h2>
+    <p class="rz__note">Incluída nas mensalidades. Porque o músculo cresce no descanso — e uma lenda trata da recuperação tão bem como do treino.</p>
+    <ul class="rz__list">
+      <li><small>01</small>Crioterapia</li>
+      <li><small>02</small>Banho turco</li>
+      <li><small>03</small>Sauna infravermelhos</li>
+      <li><small>04</small>Cadeira de massagem</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats" data-theme="light">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="display sec-title split">Lendas<br>em números</h2>
+      <p class="sub" style="max-width:340px">Um negócio de família que cresceu de um ginásio no Algarve para três clubes, sem perder a essência old school.</p>
+    </div>
+    <div class="stats__grid">
+      <div class="stat"><b data-count="2011">2011</b><span class="lbl">Ano em que abriu o primeiro Legend Gym</span></div>
+      <div class="stat"><b><span data-count="15">15</span><em>+</em></b><span class="lbl">Anos de experiência no setor do fitness</span></div>
+      <div class="stat"><b data-count="3">3</b><span class="lbl">Clubes — Faro, Olhão e Lisboa</span></div>
+      <div class="stat"><b><span data-count="100">100</span><em>kg</em></b><span class="lbl">Halteres até 100 kg em peso livre</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PLANS ================= -->
+<section class="plans" id="mensalidades" data-theme="dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="label" style="margin-bottom:22px"><span class="dot"></span>(04) Mensalidades</div>
+        <h2 class="display sec-title split">Escolhe o teu<br>caminho</h2>
+      </div>
+      <p class="sub" style="max-width:340px">Sem fidelização, por débito direto. Adere online e a inscrição fica por nossa conta.</p>
+    </div>
+    <div class="plans__grid">
+      <article class="plan">
+        <div class="plan__top"><span class="label">Fim de semana</span><span class="plan__badge">Sex · Sáb · Dom</span></div>
+        <h3>Legendary<br>Weekend</h3>
+        <p class="plan__desc">O teu fim de semana é Legend.</p>
+        <div class="plan__price"><b>30</b><sup>€</sup><small>/mês</small></div>
+        <ul>
+          <li><svg><use href="#chk"/></svg>Acesso à sexta, sábado e domingo</li>
+          <li><svg><use href="#chk"/></svg>Inscrição em oferta online</li>
+          <li><svg><use href="#chk"/></svg>Recovery Zone incluída</li>
+          <li><svg><use href="#chk"/></svg>10% de desconto na Legend Shop</li>
+        </ul>
+        <a href="https://belegend.pt" target="_blank" rel="noopener" class="btn btn--line">Adere já <span class="arr"><svg width="16" height="16"><use href="#arr"/></svg></span></a>
+      </article>
+      <article class="plan plan--feat">
+        <div class="plan__top"><span class="label">O favorito das lendas</span><span class="plan__badge">Top</span></div>
+        <h3>Legend<br>Black</h3>
+        <p class="plan__desc">Acesso ilimitado aos clubes do Algarve.</p>
+        <div class="plan__price"><b>40</b><sup>€</sup><small>/mês</small></div>
+        <ul>
+          <li><svg><use href="#chk"/></svg>Acesso ilimitado a Faro e Olhão</li>
+          <li><svg><use href="#chk"/></svg>Traz 5 amigos por mês</li>
+          <li><svg><use href="#chk"/></svg>Recovery Zone incluída</li>
+          <li><svg><use href="#chk"/></svg>10% de desconto na Legend Shop</li>
+        </ul>
+        <a href="https://belegend.pt" target="_blank" rel="noopener" class="btn btn--ink">Adere já <span class="arr"><svg width="16" height="16"><use href="#arr"/></svg></span></a>
+      </article>
+      <article class="plan">
+        <div class="plan__top"><span class="label">O essencial</span><span class="plan__badge">Classic</span></div>
+        <h3>Legend<br>Classic</h3>
+        <p class="plan__desc">Tudo o que precisas para treinar.</p>
+        <div class="plan__price"><b>35</b><sup>€</sup><small>/mês</small></div>
+        <ul>
+          <li><svg><use href="#chk"/></svg>Inscrição em oferta online</li>
+          <li><svg><use href="#chk"/></svg>Traz 3 amigos por mês</li>
+          <li><svg><use href="#chk"/></svg>Recovery Zone incluída</li>
+          <li><svg><use href="#chk"/></svg>10% de desconto na Legend Shop</li>
+        </ul>
+        <a href="https://belegend.pt" target="_blank" rel="noopener" class="btn btn--line">Adere já <span class="arr"><svg width="16" height="16"><use href="#arr"/></svg></span></a>
+      </article>
+    </div>
+    <div class="plans__notes">
+      <span>* Preços para Faro e Olhão. Lisboa tem preçário próprio.</span>
+      <span>* Cada amigo só pode usar o passe uma vez.</span>
+      <span>* Passe de amigo válido apenas para novos utilizadores.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CLUBS ================= -->
+<section class="clubs" id="clubes" data-theme="light">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="label" style="margin-bottom:22px"><span class="dot"></span>(05) Clubes</div>
+        <h2 class="display sec-title split">Encontra o teu<br>Legend Gym</h2>
+      </div>
+      <p class="sub" style="max-width:340px">Três clubes, uma só atitude. Com o Plano Livre, treinas em qualquer um deles.</p>
+    </div>
+    <div class="club-list">
+      <a class="club" href="https://belegend.pt" target="_blank" rel="noopener" data-img="0"><span class="club__n">01</span><span class="club__name">Faro</span><span class="club__tag">Algarve</span><span class="club__go"><svg width="20" height="20"><use href="#arr"/></svg></span></a>
+      <a class="club" href="https://belegend.pt" target="_blank" rel="noopener" data-img="1"><span class="club__n">02</span><span class="club__name">Olhão</span><span class="club__tag">Já abriu</span><span class="club__go"><svg width="20" height="20"><use href="#arr"/></svg></span></a>
+      <a class="club" href="https://belegend.pt" target="_blank" rel="noopener" data-img="2"><span class="club__n">03</span><span class="club__name">Lisboa</span><span class="club__tag">Já abriu</span><span class="club__go"><svg width="20" height="20"><use href="#arr"/></svg></span></a>
+    </div>
+    <div class="hours">
+      <div class="hours__intro"><h4>Horário</h4><p class="sub">Entrada por QR code na app — sem cartões, sem filas. O teu fim de semana também é Legend.</p></div>
+      <div><span class="label sub">Segunda a sexta</span><b>6:30–22:00</b></div>
+      <div><span class="label sub">Sábado e feriados</span><b>8:00–18:00</b></div>
+      <div><span class="label sub">Domingo</span><b>8:00–13:00</b></div>
+    </div>
+  </div>
+</section>
+<div class="preview" aria-hidden="true"><img src="assets/img/c1.jpg" alt=""><img src="assets/img/c2.jpg" alt=""><img src="assets/img/c3.jpg" alt=""></div>
+
+<!-- ================= APP ================= -->
+<section class="app" id="app" data-theme="gold">
+  <div class="wrap app__grid">
+    <div>
+      <div class="label" style="margin-bottom:22px"><span class="dot" style="background:var(--ink)"></span>(06) Legend Gym App</div>
+      <h2 class="display app__title split">O ginásio<br>no teu bolso</h2>
+      <ul class="app__feats">
+        <li>Plano de treino personalizado <span>01</span></li>
+        <li>Vídeos de treino <span>02</span></li>
+        <li>Acesso por QR code <span>03</span></li>
+        <li>Entrada imediata no ginásio <span>04</span></li>
+      </ul>
+      <div class="stores">
+        <a class="store" href="https://apps.apple.com/pt/app/legend-gym/id6477606128" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM13.9 4.9c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.2 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>
+          <span><small>Descarrega na</small><b>App Store</b></span></a>
+        <a class="store" href="https://play.google.com/store/search?q=legend%20gym&c=apps" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 1.8c-.3.3-.4.7-.4 1.2v18c0 .5.1.9.4 1.2l10-10.2-10-10.2zm11.1 11.3l2.6 2.6-11.8 6.7 9.2-9.3zm0-2.2L5.5 1.6l11.8 6.7-2.6 2.6zm3.9 4l-2.9-1.7-2.9 2.9 2.9-2.9-2.9-2.9 2.9-1.7 3.1 1.8c.9.5.9 1.4 0 1.9l-.2.1z"/></svg>
+          <span><small>Disponível no</small><b>Google Play</b></span></a>
+      </div>
+    </div>
+    <div class="phone-stage">
+      <div class="float-chip fc1"><b>QR</b>Entrada sem<br>contacto</div>
+      <div class="phone">
+        <div class="phone__screen">
+          <div class="phone__notch"></div>
+          <div class="ph-top"><span class="logo"><svg><use href="#mark"/></svg>LEGEND</span><span class="av">L</span></div>
+          <div class="ph-hi">Bom treino,</div>
+          <div class="ph-name">Lenda</div>
+          <div class="ph-qr"><div class="q"><svg id="qr" viewBox="0 0 25 25" shape-rendering="crispEdges"></svg></div><p><span>Entrada imediata</span><span>Faro ↗</span></p></div>
+          <div class="ph-card"><div><small>Treino de hoje</small><b>Peito &amp; Tríceps · 6 ex.</b></div><i>▶</i></div>
+        </div>
+      </div>
+      <div class="float-chip fc2"><b>▶</b>Vídeos no teu<br>plano de treino</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAMILY ================= -->
+<section class="family" data-theme="dark">
+  <div class="wrap family__grid">
+    <div class="family__imgs">
+      <div class="media m1"><img src="assets/img/fam.jpg" alt="Atleta a treinar com barra" loading="lazy" data-speed="-8"></div>
+      <div class="media m2"><img src="assets/img/c1.jpg" alt="Fachada do Legend Gym" loading="lazy" data-speed="10"></div>
+      <div class="family__year">2011</div>
+    </div>
+    <div class="family__body">
+      <div class="label"><span class="dot"></span>(07) Quem somos</div>
+      <h2 class="display family__title split">Uma família.<br>Uma lenda.</h2>
+      <p>O Legend Gym nasceu pelas mãos de Paula e José Caleça. Desde 2011, quando abriu o primeiro ginásio, a Paula lidera a expansão do grupo — hoje com o filho, Guilherme Caleça, ao lado.</p>
+      <p class="sub">A missão é clara: inspirar uma nova geração a viver a musculação natural como estilo de vida.</p>
+      <div class="family__names"><span>Paula Caleça</span><span>José Caleça</span><span>Guilherme Caleça</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta" data-theme="dark">
+  <div class="cta__sticky">
+    <div class="cta__bg"><img src="assets/img/cta.jpg" alt="" loading="lazy"></div>
+    <div class="cta__inner">
+      <h2 class="display cta__title"><span class="row">Torna-te</span><span class="row">uma lenda</span></h2>
+      <p class="cta__sub">Adere online com inscrição a 0€ e começa hoje. O resto da história escreves tu.</p>
+      <div class="cta__btns">
+        <a href="https://belegend.pt" target="_blank" rel="noopener" class="btn btn--gold">Inscreve-te já <span class="arr"><svg width="16" height="16"><use href="#arr"/></svg></span></a>
+        <a href="https://wa.me/351911164900" target="_blank" rel="noopener" class="btn btn--line" style="color:var(--paper)">Falar no WhatsApp <span class="arr"><svg width="16" height="16"><use href="#arr"/></svg></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" data-theme="gold">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <p class="footer__lead">Cria a tua própria lenda.</p>
+        <a href="tel:+351911164900" class="btn btn--ink">+351 911 164 900 <span class="arr"><svg width="16" height="16"><use href="#arr"/></svg></span></a>
+      </div>
+      <div><h5>Explorar</h5><ul>
+        <li><a href="#clubes" data-link>Clubes</a></li><li><a href="#mensalidades" data-link>Mensalidades</a></li><li><a href="#recovery" data-link>Recovery Zone</a></li><li><a href="#app" data-link>App</a></li><li><a href="https://shop.belegend.pt" target="_blank" rel="noopener">Legend Shop</a></li><li><a href="https://belegend.pt" target="_blank" rel="noopener">Recrutamento</a></li>
+      </ul></div>
+      <div><h5>Horário</h5><ul>
+        <li>Seg–Sex · 6:30–22:00</li><li>Sáb e feriados · 8:00–18:00</li><li>Dom · 8:00–13:00</li>
+      </ul></div>
+      <div><h5>Segue-nos</h5><ul>
+        <li><a href="https://instagram.com/belegend.pt" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://facebook.com/belegend.pt" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.tiktok.com/@belegend.pt" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://youtube.com/@legendgym" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://wa.me/351911164900" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul></div>
+    </div>
+    <div class="footer__legal">
+      <span>© 2026 Legend Gym</span><a href="#">Proteção de Dados</a><a href="#">Política de Cookies</a><a href="#">Termos e Condições</a><a href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener">Livro de Reclamações</a><a href="#">Resolução Alternativa de Litígios</a>
+    </div>
+  </div>
+  <div class="footer__giant" aria-hidden="true"><span>L</span><span>E</span><span>G</span><span>E</span><span>N</span><span>D</span></div>
+</footer>
+
+<script src="assets/js/vendor/gsap.min.js" defer></script>
+<script src="assets/js/vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/vendor/lenis.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
